@@ -45,16 +45,30 @@ li{
     margin-bottom: 20px;
 }
 
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .left{
-    justify-content: flex-start;
-    width: 50%;
-    flex: 0 0 30%;
+  flex: 0 0 50%;
+  padding: 20px;
+  background-color: green;
+  color: white;
+  border-radius: 2%;
+  box-shadow: 2px 2px 2px 0 white;
 }
 
 .right{
-    justify-content: flex-end;
-    width: 50%;
+  text-align: center;
+  flex: 0 0 50%;
+  background-color: #df5b2a;
+  box-shadow: 2px 2px 2px 0 white;
+  border-radius: 2%;
 }
+
 /* ======== NAVIGATION ========= */
 
 .navbar{
@@ -156,6 +170,117 @@ li{
     background-color: darkgreen;
     transition: 0.3s ease;
 }
+
+/* ======== Main ==========*/
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+.introduction{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: grey;
+    color: black;
+    z-index: 1;
+}
+
+.introduction h1{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+.introduction p{
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.introduction ul{
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.summary{
+    text-align: left;
+    padding: 10px;
+    align-items: left;
+    border: 2px solid black;
+    border-radius: 1%;
+}
+
+.dublin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: darkgray;
+    color: black;
+    z-index: 1;
+}
+
+.dublin h1{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.dublin p{
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.guinness{
+  min-width: 100%;
+}
+
+.outside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: lightgray;
+    color: black;
+    z-index: 1;
+}
+
+.outside h1{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.outside p{
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+
 
 /* ======== Footer ==========*/
 
